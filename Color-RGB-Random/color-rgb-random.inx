@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>RGB Random</_name>
+  <id>org.inkscape.colorExtra.rgbRandom</id>
+  <!-- Dependências do Inkscape -->
+  <dependency type="executable" location="extensions">simplestyle.py</dependency>
+  <!-- Dependência do Script -->
+  <dependency type="executable" location="extensions">color-rgb-random.py</dependency>
+  <!-- GUI -->
+  <param name="label" type="description">Colors</param>
+  <param name="randomizeRed" type="boolean" indent="1" _gui-text="Red">True</param>
+  <param name="randomizeGreen" type="boolean" indent="1" _gui-text="Green">True</param>
+  <param name="randomizeBlue" type="boolean" indent="1" _gui-text="Blue">True</param>
+  <param name="label" type="description">Options</param>
+  <param name="randomizeFill" type="boolean" indent="1" _gui-text="Fill">True</param>
+  <param name="randomizeStroke" type="boolean" indent="1" _gui-text="Stroke">False</param>
+  <param name="keepColors" type="boolean" indent="1" _gui-text="Keep other colors">False</param>
+  <effect needs-live-preview="true">
+    <object-type>all</object-type>
+    <!-- Menu Extensions -->
+    <effects-menu>
+      <submenu _name="Color" />
+    </effects-menu>
+  </effect>
+  <!-- Script para executar alteração no objeto -->
+  <script>
+  <command reldir="extensions"
+    interpreter="python">color-rgb-random.py</command>
+  </script>
+</inkscape-extension>
