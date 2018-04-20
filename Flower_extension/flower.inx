@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- inkscape-extension 
+        xmlns="http://www.inkscape.org/namespace/inkscape/extension" -->
+<inkscape-extension>
+
+    <_name>Draw flower</_name>
+    <id>org.inkscape.flower</id>
+
+    <!-- Dependências do Inkscape -->    
+    <dependency type="executable" location="extensions">flower.py</dependency>
+    <!-- Dependência do Script -->
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+
+    <!-- GUI -->
+    <param name="size" type="int" min="5" max="500" _gui-text="Size:">50</param>
+    <param name="num_curves" type="int" min="3" max="36" _gui-text="Number of curves:">8</param>
+
+    <!-- Menu Extensions -->
+    <effect>
+        <object-type>all</object-type>
+                <effects-menu>
+                    <submenu _name="Render" />
+                </effects-menu>                     
+    </effect>
+
+    <!-- Script para executar alteração no objeto -->
+    <script>
+        <command reldir="extensions" interpreter="python">flower.py</command>
+    </script>
+
+</inkscape-extension>

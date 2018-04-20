@@ -1,0 +1,22 @@
+Extension for Inkscape
+======================
+
+This is a simple Inkscape extension to randomly change the fill and stroke colors of objects.
+
+Install to Inkscape
+===================
+
+Copy the contents of files `flower.inx` and `flower.py` to your Inkscape `extensions/` folder.
+
+Typical locations include:
+
+* OSX - `/Applications/Inkscape.app/Contents/Resources/extensions`
+* Linux - `/usr/share/inkscape/extensions` or `~/.config/inkscape/extensions`
+* Windows - `C:\Program Files\Inkscape\share\extensions`
+
+LICENSE
+=======
+
+This source is modified and released under the terms of the GPLv2 open source license. See `LICENSE` for details. 
+
+Some source files in the `src/lib` directory are pulled from the [Inkscape](http://www.inkscape.org/) project. See their headers for individual specific license details.
