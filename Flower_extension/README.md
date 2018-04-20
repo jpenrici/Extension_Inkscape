@@ -1,7 +1,7 @@
 Extension for Inkscape
 ======================
 
-This is a simple Inkscape extension to randomly change the fill and stroke colors of objects.
+This is a simple Inkscape extension to quickly draw a figure (flower).
 
 Install to Inkscape
 ===================
