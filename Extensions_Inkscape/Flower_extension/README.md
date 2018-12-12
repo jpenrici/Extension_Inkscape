@@ -14,9 +14,14 @@ Typical locations include:
 * Linux - `/usr/share/inkscape/extensions` or `~/.config/inkscape/extensions`
 * Windows - `C:\Program Files\Inkscape\share\extensions`
 
-LICENSE
+License
 =======
 
 This source is modified and released under the terms of the GPLv2 open source license. See `LICENSE` for details. 
 
 Some source files in the `src/lib` directory are pulled from the [Inkscape](http://www.inkscape.org/) project. See their headers for individual specific license details.
+
+Screenshot
+==========
+
+![screenshot](https://github.com/jpenrici/SVG_Inkscape/blob/master/Extensions_Inkscape/Flower_extension/flower_extension_2018-04-20.png)
