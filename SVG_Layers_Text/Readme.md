@@ -24,4 +24,3 @@
 
 **3. Result:**
 
-https://github.com/jpenrici/SVG_Inkscape/blob/master/SVG_Layers_Text/svgOut_layer.gif
