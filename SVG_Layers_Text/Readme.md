@@ -6,7 +6,7 @@
 **execute:**
 `./layer_text_SVG`
 
-**output**
+**output:**
 `svgOut_layer.svg`
 
 ## Use in image editors	
@@ -21,3 +21,7 @@
    - Mark "As animation"
    - Mark "Loop forever"
    - Mark "Use delay entered above for all frames"
+
+**3. Result:**
+
+https://github.com/jpenrici/SVG_Inkscape/blob/master/SVG_Layers_Text/svgOut_layer.gif
