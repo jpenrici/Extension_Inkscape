@@ -24,4 +24,4 @@
 
 **3. Result:**
 
-![svgout_layer]
+![svgout_layer_500x500](https://user-images.githubusercontent.com/5427673/53696590-57009700-3da7-11e9-9c49-7287a2e15dbf.gif)
