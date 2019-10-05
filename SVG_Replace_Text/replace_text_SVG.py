@@ -1,6 +1,6 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 '''
-	Objetivo alterar textos pré-determinados em um arquivo SVG.
+	Objetivo alterar textos previamente conhecidos em um arquivo SVG.
 '''	
 import re
 import os.path
