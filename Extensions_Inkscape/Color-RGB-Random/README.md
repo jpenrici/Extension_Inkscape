@@ -17,6 +17,6 @@ Typical locations include:
 LICENSE
 =======
 
-This source is modified and released under the terms of the GPLv2 open source license. See `LICENSE` for details. 
+See `LICENSE` for details. 
 
 Some source files in the `src/lib` directory are pulled from the [Inkscape](http://www.inkscape.org/) project. See their headers for individual specific license details.
