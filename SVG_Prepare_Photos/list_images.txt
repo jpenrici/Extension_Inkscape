@@ -1,0 +1,4 @@
+# File names in the Images directory.
+
+example_1.jpg
+example_2.png
