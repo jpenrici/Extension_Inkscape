@@ -1,0 +1,9 @@
+# File names in the Images directory.
+
+bonsai-01.png
+bonsai-02.png
+bonsai-03.png
+bonsai-04.png
+bonsai-05.png
+bonsai-06.png
+bonsai-07.png
